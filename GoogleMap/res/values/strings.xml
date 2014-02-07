@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoogleMap</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Map</string>
+    <string name="title_section2">page 2</string>
+    <string name="title_section3">page 3</string>
+    <string name="bat_background">British American Tobacco background</string>
+    <string name="bat_logo">British American Tobacco logo</string>
+     <string name="image">image</string>
+
+</resources>

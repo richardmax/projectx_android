@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hogarth.googlemap"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    
+     <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    
+    <!-- google maps uses openGL ES 2 to render map so this is required -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+         <activity
+            android:name="com.hogarth.googlemap.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorPortrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hogarth.googlemap.MainActivity"
+            android:label="@string/app_name" 
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait">
+            
+        </activity>
+         <activity
+            android:name="com.hogarth.googlemap.VenueDetailsFragment"
+            android:label="@string/app_name" 
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait">
+            
+        </activity>
+        
+          <meta-data android:name="com.google.android.gms.version"
+           android:value="@integer/google_play_services_version" />
+         
+          
+          <!-- ** You need to replace the key below with your own key. **
+         See: https://developers.google.com/maps/documentation/android/start
+         for instructions on how to get your own key.
+         for generating the code eclipse->preferences->Android->build- copy the SHA1 fingerprint
+         then go to https://code.google.com/apis/console/?noredirect  to configure your key -->
+         
+        <meta-data
+    android:name="com.google.android.maps.v2.API_KEY"
+    android:value="AIzaSyAEAzuCtz-c3EVg7ka7ztr9lSGXxY6bhc0"/>
+    </application>
+
+</manifest>

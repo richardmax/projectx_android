@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:upp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/getfuellayout">
+    
+   
+     
+     <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+    	android:paddingLeft="15dp" 
+    	android:paddingRight="15dp" >
+    	
+         <ImageView
+        android:id="@+id/imgdirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image"
+        android:src="@drawable/direction" />
+        <ImageView
+            android:id="@+id/imgPhotoPrefix"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/direction"
+             android:contentDescription="@string/image"  android:layout_alignParentRight="true"
+             android:layout_marginRight="10dp" />
+     </RelativeLayout>
+    
+      <ScrollView 
+    android:layout_width="match_parent"
+     android:layout_height="match_parent" 
+     android:scrollbars="vertical" >
+     <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp" >
+
+    <com.hogarth.components.CustomTextView
+        android:id="@+id/uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:text="" />
+
+    <com.hogarth.components.CustomTextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        
+        />
+    
+    <com.hogarth.components.CustomTextView
+      android:id="@+id/Phone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+    
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/twitter"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+      <com.hogarth.components.CustomTextView
+      android:id="@+id/Address"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+      
+       <com.hogarth.components.CustomTextView
+      android:id="@+id/city"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+       
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/state"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/crossstreet"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/postcode"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/country"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/latitude"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/longitude"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/distance"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/siteurl"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/hours"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/price"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+   
+    
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/smokingratingtotal"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/smokingratingcount"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/description"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/outsideradius"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/categories"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+     
+     <com.hogarth.components.CustomTextView
+      android:id="@+id/distanceunit"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="16sp"
+      android:layout_marginTop="10dp"
+       android:text=""/>
+      </LinearLayout>
+  </ScrollView>   
+
+</LinearLayout>
