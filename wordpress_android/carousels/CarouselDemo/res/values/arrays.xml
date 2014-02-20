@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<array name="entries">
+		<item>@drawable/postable_carousel_item_angled</item>		
+		<item>@drawable/postable_carousel_item_angled</item> 		
+		<item>@drawable/postable_carousel_item_angled</item>		
+		<item>@drawable/postable_carousel_item_angled</item>
+	</array>	
+	<array name="names">
+	    <item>Gin</item>
+	    <item>Vodka</item>
+	    <item>Whiskey</item>
+	    <item>Rum</item>
+	</array>
+</resources>

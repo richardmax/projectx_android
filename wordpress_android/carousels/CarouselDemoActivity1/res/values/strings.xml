@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="KApplicationName">Carousel Demo 1</string>
+    <string name="KPetShop">Pet Shop</string>
+    <string name="KNewArrivals">New arrivals</string>
+
+</resources>

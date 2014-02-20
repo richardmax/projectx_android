@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="images_array">
+        <item>@drawable/postable_carousel_item_angled</item>
+        <item>@drawable/postable_carousel_item_angled</item>
+        <item>@drawable/postable_carousel_item_angled</item>
+        <item>@drawable/postable_carousel_item_angled</item>
+        <item>@drawable/postable_carousel_item_angled_translucent</item>
+        <item>@drawable/postable_carousel_item_angled_translucent</item>
+        <item>@drawable/postable_carousel_item_angled_translucent</item>
+    </string-array>
+    <string-array name="names_array">
+        <item>Gin</item>
+	    <item>Vodka</item>
+	    <item>Whiskey</item>
+	    <item>Rum</item>
+	    <item>Empty</item>
+	    <item>Empty</item>
+	    <item>Empty</item>
+    </string-array>
+
+</resources>
